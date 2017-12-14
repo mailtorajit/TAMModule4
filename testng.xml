@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="unittest framework" parallel="methods" thread-count="10">
+    <!-- 
+	<listeners>
+		<listener class-name="com.myjava.utils.TestNGCustomReportListener" />
+	</listeners>
+ 	-->
+	<test name="CalculatorTests">
+        <parameter name="firstNumber" value="10"></parameter>
+        <parameter name="secondNumber" value="20"></parameter>
+        <parameter name="expected" value="30"></parameter>
+        <classes>
+            <class name="com.tam.demo.unittestframework.CalculatorTest"/>
+        </classes>
+    </test>
+
+    <test name="CalculatorTests_2">
+        <parameter name="firstNumber" value="10"></parameter>
+        <parameter name="secondNumber" value="20"></parameter>
+        <parameter name="expected" value="30"></parameter>
+        <classes>
+            <class name="com.tam.demo.unittestframework.CalculatorTest"/>
+        </classes>
+    </test>
+	<test name="CalculatorTests_3">        
+        <classes>
+            <class name="com.tam.demo.unittestframework.MultiAndDivTest"/>
+        </classes>
+    </test>
+</suite>
