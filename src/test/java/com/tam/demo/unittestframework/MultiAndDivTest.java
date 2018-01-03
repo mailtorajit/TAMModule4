@@ -1,4 +1,4 @@
-package com.tam.demo.unittestframework;
+package test.java.com.tam.demo.unittestframework;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -3,7 +3,7 @@
 <suite name="unittest framework" parallel="methods" thread-count="10">
     <!-- 
 	<listeners>
-		<listener class-name="com.myjava.utils.TestNGCustomReportListener" />
+		<listener class-name="test.java.com.myjava.utils.TestNGCustomReportListener" />
 	</listeners>
  	-->
 	<test name="CalculatorTests">
@@ -11,7 +11,7 @@
         <parameter name="secondNumber" value="20"></parameter>
         <parameter name="expected" value="30"></parameter>
         <classes>
-            <class name="com.tam.demo.unittestframework.CalculatorTest"/>
+            <class name="test.java.com.tam.demo.unittestframework.CalculatorTest"/>
         </classes>
     </test>
 
@@ -20,12 +20,12 @@
         <parameter name="secondNumber" value="20"></parameter>
         <parameter name="expected" value="30"></parameter>
         <classes>
-            <class name="com.tam.demo.unittestframework.CalculatorTest"/>
+            <class name="test.java.com.tam.demo.unittestframework.CalculatorTest"/>
         </classes>
     </test>
 	<test name="CalculatorTests_3">        
         <classes>
-            <class name="com.tam.demo.unittestframework.MultiAndDivTest"/>
+            <class name="test.java.com.tam.demo.unittestframework.MultiAndDivTest"/>
         </classes>
     </test>
 </suite>

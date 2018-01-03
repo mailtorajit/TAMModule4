@@ -1,6 +1,6 @@
-package com.tam.demo.unittestframework.runner;
+package test.java.com.tam.demo.unittestframework.runner;
 
-import com.tam.demo.unittestframework.listner.MyTestListner;
+import test.java.com.tam.demo.unittestframework.listner.MyTestListner;
 import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.xml.XmlSuite;

@@ -1,4 +1,4 @@
-package com.tam.demo.unittestframework;
+package test.java.com.tam.demo.unittestframework;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.*;
@@ -9,17 +9,17 @@ public class BaseCalculatorTest {
 
     @BeforeSuite
     public void beforeSutie(){
-        System.out.println("Before Suite");
+        System.out.println("From Before Suite");
     }
 
     @BeforeClass
     public  void beforeClass(){
-        System.out.println("Before class");
+        System.out.println("From Before class");
     }
 
     @BeforeMethod
     public void beforeMethod(){
-        System.out.println("Before Method");
+        System.out.println("From Before Method");
     }
 
     @BeforeGroups(value = {"main"})
@@ -35,16 +35,16 @@ public class BaseCalculatorTest {
 
     @AfterMethod
     public void afterMethod(){
-        System.out.println("after method");
+        System.out.println("from after method");
     }
 
     @AfterClass
     public void afterClass(){
-        System.out.println("after class");
+        System.out.println("from after class");
     }
 
     @AfterSuite
     public void afterSuite(){
-        System.out.println("after suite");
+        System.out.println("from after suite");
     }
 }
